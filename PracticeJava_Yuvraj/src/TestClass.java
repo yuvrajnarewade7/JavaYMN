@@ -1,9 +1,17 @@
 
-public class TestClass {
+class TestClass {//start of body
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	static TestClass t1; 
+	int r;
+	public static void main(String[] args) 
+	{
+		TestClass obj = new TestClass();
+		System.out.println(obj);
+		//TestClass obj = new TestClass();
+		
+		t1 = new TestClass(); 
+		
+	} 
 
-	}
-
-}
+	
+}//end of body
