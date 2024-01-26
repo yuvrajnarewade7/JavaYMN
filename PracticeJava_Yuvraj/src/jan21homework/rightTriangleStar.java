@@ -12,6 +12,7 @@ public class rightTriangleStar {
 				System.out.print("*");
 			}
 			System.out.println();
+			
 		}
 		
 	}
