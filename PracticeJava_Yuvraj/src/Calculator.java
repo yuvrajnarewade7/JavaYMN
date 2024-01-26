@@ -1,5 +1,5 @@
 
-public class Calculator {
+public class ` {
 	
 	public int addition(int num1, int num2) {
 		
@@ -33,8 +33,8 @@ public int remainder(int num1, int num2) {
 
 	public static void main (String[] args) {
 		
-		int a = 19;
-		int b = 5;
+		int a = 25;
+		int b = 10;
 		Calculator obj = new Calculator();
 		int addition = obj.addition(a,b);
 		System.out.println("Sum of "+ a + " and " + b + " = " + addition); 
