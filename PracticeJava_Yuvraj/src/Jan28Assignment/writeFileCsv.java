@@ -19,7 +19,7 @@ public class writeFileCsv {
             }
         }
 
-        String filePath = "C:\\Training\\writeCSV.csv";
+        String filePath = "C:\\Private\\Learning\\JavaSelenium\\writeCSV.csv";
         try (FileWriter writer = new FileWriter(filePath)) {
             for (int i = 0; i < rows; i++) {
                 StringBuilder sb = new StringBuilder();

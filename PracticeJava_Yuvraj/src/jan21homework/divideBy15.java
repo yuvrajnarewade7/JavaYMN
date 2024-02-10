@@ -7,7 +7,9 @@ public class divideBy15 {
 		try {
 			double temp = Math.random();
 			System.out.println(temp);
-			System.out.println(15/temp);	
+			int randomint = (int) (temp * 10);
+			System.out.println(randomint);	
+			System.out.println(15/randomint);	
 		}catch(Throwable t) {
 		
 			System.out.println("Exception occured"+ t.getMessage());

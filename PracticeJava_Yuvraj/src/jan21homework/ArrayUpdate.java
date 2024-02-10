@@ -1,6 +1,6 @@
 package jan21homework;
-import java.util.ArrayList;
-import java.util.Iterator;
+//import java.util.ArrayList;
+//import java.util.Iterator;
 
 public class ArrayUpdate {
 
@@ -36,7 +36,7 @@ public class ArrayUpdate {
 		
 		//System.out.println('\n' + "Printing using Iterator class"); NEED TO DISCUSS WITH HIMANI
 		
-	//	Iterator <String> itr = colorArray.iterator();
+	//Iterator <String> itr = colorArray.iterator();
 		
 		colorArray[4] = "Black";
 		
