@@ -10,13 +10,13 @@ public class palindromeString {
 		for (int i=0; i<(stringLength/2); i++){
 			if (inputString.charAt(i)!=inputString.charAt(stringLength-i-1))
 					{
-						System.out.println("Not palindrome");
+						System.out.println("'" + inputString + "'" + "is not palindrome.");
 						break;
 					}
 			matchcount++;   	
 		}
 		if (matchcount == (stringLength/2))
-			System.out.println("Palindrome");
+			System.out.println("'" + inputString + "'" + " is palindrome.");
 		//System.out.println(stringLength);
 				
 	}

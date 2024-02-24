@@ -8,7 +8,7 @@ public class removeSpaces {
 		String sentence = "The Way To Get Started Is To Quit Talking And Begin Doing";
 		//int sentenceLength = sentence.length(); 
 		//int i = 0; 
-		
+		System.out.println("Original Sentence: "+ sentence);
 		//String sentencenew = sentence.replaceAll("\\s","");// using regex  
 		
 	   //	System.out.println(sentencenew);
@@ -27,6 +27,7 @@ public class removeSpaces {
 			
 		}
 		new String (result, 0, index); //converts the result array to a String, starting from index 0 up to index - 1
+		System.out.print("Sentence withoout space: ");
 		System.out.println(result);
 		}
 
